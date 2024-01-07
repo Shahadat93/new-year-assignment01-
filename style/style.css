@@ -21,10 +21,12 @@ header{
 }
 
 .banner{
-    width: 600px;
+    width: 50%;
+    margin: auto;
     text-align: center;
     background: rgba(7, 2, 17, 0.50);
-    padding: 120px 350px;
+    padding: 120px 330px;
+    border-radius: 16px;
 }
 
 .greeting{
@@ -78,3 +80,65 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Offer Section End  */
+
+
+/* Party Section */
+
+.party{
+    background-image: url('../images/Vectorrr.png');
+    max-width: 1320px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.party-join{
+    background: rgba(7, 2, 17, 0.50);
+    padding: 100px 40px 100px 125px;
+    border-radius: 16px 0px 0px 16px;
+}
+.party-join h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 20px;
+}
+
+.party-join p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.party-join button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: rgba(20, 66, 204, 0.129);
+    border-radius: 5px;
+}
+
+.year{
+    background: rgba(7, 2, 17, 0.50);
+    padding: 65px 135px 65px 0px;
+    border-radius: 0px 16px 16px 0px;
+}
+
+/* Party Section End */
