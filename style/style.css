@@ -44,3 +44,37 @@ h1{
 
 /* Offer Section style */
 
+.offer-detail h2{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.offer-detail p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.offer-detail h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.offer-detail img{
+    max-width: 800px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
