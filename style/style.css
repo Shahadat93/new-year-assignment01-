@@ -1,0 +1,46 @@
+/* Common Style */
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* Header section style  */
+
+header{
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    font-family: Merriweather; 
+    border-radius: 16px;
+}
+
+.banner{
+    width: 600px;
+    text-align: center;
+    background: rgba(7, 2, 17, 0.50);
+    padding: 120px 350px;
+}
+
+.greeting{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+h1{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+/* Header Style End  */
+
+/* Offer Section style */
+
