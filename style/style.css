@@ -183,12 +183,19 @@ h1{
     padding: 16px 32px;
     border-radius: 5px;
     border: 0px;
-    color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #F00;
+}
+.join-btn button a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.join-btn button :hover{
+    cursor: pointer;
 }
 
 /* Join Section End */
@@ -255,6 +262,7 @@ h1{
     margin-top: 150px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 100px;
 }
 
 .sub-newsletter{
@@ -320,6 +328,9 @@ h1{
     background: #F00;
     border: 0px;
 }
+.sub-aria a :hover{
+    cursor: pointer;
+}
 
 .sub-aria a input[value^="Subscribe"] {
     color: #FFF;
@@ -331,3 +342,80 @@ h1{
 
 /* Newsletter Section End  */
 
+
+/* Footer Section */
+
+footer{
+    max-width: 1600px;
+    background: #070211;
+    margin: 0 auto;
+}
+
+.footer-container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.ctn-detail{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ctn-detail p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.office-address{
+    max-width: 450px;
+}
+
+.contact-info .ctn-num{
+    margin-bottom: 0px;
+}
+
+.contact-info .website{
+    margin-top: 0px;
+}
+
+.social-icon{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-icon a{
+    margin: 5px;
+}
+hr{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);;
+    border: none;
+}
+
+
+.copyright p{
+    line-height: normal;
+    font-size: 18px;
+}
+.unsub{
+    text-align: right;
+}
+.unsub a{
+    color: #FFF;
+    font-family: Inter;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#un-copy{
+    justify-content: space-between;
+}
